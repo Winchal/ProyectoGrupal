@@ -6,6 +6,7 @@ public class ProyectoChinchulin {
     areaCirculo();
     areaRectangulo();
     }
+<<<<<<< HEAD
 	
      public static int cuadrado(int lado1,int lado2){
 	
@@ -13,6 +14,14 @@ public class ProyectoChinchulin {
 
 
 	}
+=======
+
+public static double areaCirculo(double Radio){
+
+return Math.PI * Math.pow(Radio,2); 
+
+}
+>>>>>>> b569a82ac446e5b685b335ecce1f9cdfe6eadd20
 
     
 }
