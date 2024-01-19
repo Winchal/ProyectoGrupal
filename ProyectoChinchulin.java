@@ -1,12 +1,15 @@
 
 public class ProyectoChinchulin {
     public static void main(String[] args) {
-    areaTriangulo();
-    areaCuadrado(3, 3);
+<<<<<<< HEAD
+    areaTriangulo(12,16);
+    areaCuadrado(3,3);
     areaCirculo();
     areaRectangulo();
     }
-<<<<<<< HEAD
+public static int areaTriangulo (int base, int altura){
+	return base * altura / 2;
+}
 	
      public static int cuadrado(int lado1,int lado2){
 	
@@ -14,14 +17,10 @@ public class ProyectoChinchulin {
 
 
 	}
-=======
 
 public static double areaCirculo(double Radio){
 
 return Math.PI * Math.pow(Radio,2); 
 
 }
->>>>>>> b569a82ac446e5b685b335ecce1f9cdfe6eadd20
-
-    
 }
