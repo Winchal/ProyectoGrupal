@@ -6,5 +6,12 @@ public class ProyectoChinchulin {
     areaCirculo();
     areaRectangulo();
     }
+
+public static double areaCirculo(double Radio){
+
+return Math.PI * Math.pow(Radio,2); 
+
+}
+
     
 }
